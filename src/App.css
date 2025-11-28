@@ -1,0 +1,119 @@
+/* App container */
+.App-Container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Page title */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+form input[type="text"],
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+form input[type="file"] {
+  padding: 5px;
+}
+
+form button {
+  padding: 10px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+form button:hover {
+  background: #155a9c;
+}
+
+/* Task list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Title inside task */
+li h1 {
+  margin: 0 0 10px 0;
+  font-size: 22px;
+}
+
+/* Update textarea */
+li textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons for update & delete */
+li button {
+  padding: 8px 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Update button */
+li button:first-of-type {
+  background: #388e3c;
+  color: white;
+}
+
+li button:first-of-type:hover {
+  background: #2a6e2e;
+}
+
+/* Delete button */
+li button:last-of-type {
+  background: #d32f2f;
+  color: white;
+}
+
+li button:last-of-type:hover {
+  background: #a62323;
+}
+
+/* Media preview styling */
+img, video {
+  display: block;
+  margin-top: 10px;
+  border-radius: 10px;
+}
